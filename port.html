@@ -10,16 +10,21 @@
     <title>Portfolio</title>
 
     <style>
+        /* Prime Categories to style */
+
         *{
     margin:0;
     padding: 0;
 }
-
+ 
 body{
     background-color: rgb(4, 14, 39);
     font-family: 'Arimo', sans-serif;
     color: rgb(255, 255, 255);
 }
+
+
+/*        Header   */
 
 nav{
     display: flex;
@@ -28,9 +33,14 @@ nav{
     background-color:rgb(22, 39, 87);
 }
 
+nav div{
+    margin: 20px;
+}
+
 nav ul{
     display:flex;
     justify-content: center;
+    
     
 }
 
@@ -39,10 +49,37 @@ nav ul li{
     margin: 0 15px;
 }
 
+nav ul li a{
+    
+}
 .left{
     font-size: 1.5rem;
 }
+/* Main */
 
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin:30px;
+    
+}
+.firstsection div{
+    width: 30%;
+}
+
+.leftsection{
+    
+}
+
+.rightsection{
+    
+    margin:30px;
+}
+.rightsection img{
+    height: 300px;
+    width:300px;
+    border-radius:100%;
+}
     </style>
 </head>
 <body>
@@ -53,15 +90,26 @@ nav ul li{
             </div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Service</li>
-                    <li>Project</li>
-                    <li>Contact Me</li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./">About</a></li>
+                    <li><a href="./">Service</a></li>
+                    <li><a href="./">Project</a></li>
+                    <li><a href="./">Contact Me</a></li>
                 </ul>
             </div>
            
         </nav>
     </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+               I am Ayush and I am Web Developer
+            </div>
+            <div class="rightsection">
+                <img src="./biopic.jpg" alt="Ayush Dubey's Profile">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
