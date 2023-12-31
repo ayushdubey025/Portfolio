@@ -31,11 +31,12 @@ nav{
     justify-content:space-around;
     align-items:center;
     background-color:rgb(22, 39, 87);
+    height: 80px;
 }
 
-nav div{
+/* nav div{
     margin: 20px;
-}
+} */
 
 nav ul{
     display:flex;
@@ -50,8 +51,15 @@ nav ul li{
 }
 
 nav ul li a{
-    
+    text-decoration: none;
+    color: white;
 }
+
+nav ul li a:hover{
+    color: rgb(108, 61, 234);
+    font-size: 1.2rem;
+}
+
 .left{
     font-size: 1.5rem;
 }
@@ -60,25 +68,40 @@ nav ul li a{
 .firstsection{
     display: flex;
     justify-content: space-around;
-    margin:30px;
+    margin:30px 0;
+    align-items: center;
+
     
 }
-.firstsection div{
+.firstsection > div{
     width: 30%;
 }
 
 .leftsection{
-    
+    font-size: 3rem;
+
 }
 
 .rightsection{
     
-    margin:30px;
+    margin:40px;
 }
 .rightsection img{
-    height: 300px;
-    width:300px;
+    height:100% ;
+    width:80%;
     border-radius:100%;
+}
+.purple{
+    color: rgb(170, 0, 255);
+}
+
+#element{
+    color: rgb(170, 0, 255);
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
 }
     </style>
 </head>
@@ -104,12 +127,31 @@ nav ul li a{
     <main>
         <section class="firstsection">
             <div class="leftsection">
-               I am Ayush and I am Web Developer
+               Hi, My name is <span class="purple">Ayush</span>
+               <div>
+                and I am passionate 
+                <!-- <div>Web Developer</div> -->
+                  <!-- Element to contain animated typing -->
+                    <span id="element"></span>
+
+               </div>
             </div>
             <div class="rightsection">
                 <img src="./biopic.jpg" alt="Ayush Dubey's Profile">
             </div>
         </section>
+<hr/>
+        <section class="secondsection">
+            <hi>Past Experience</hi>
+        </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Software Developer'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 </html>
