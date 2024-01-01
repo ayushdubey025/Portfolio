@@ -1,157 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="port.css"> -->
     <title>Portfolio</title>
 
     <style>
-        /* Prime Categories to style */
+      /* Prime Categories to style */
 
-        *{
-    margin:0;
-    padding: 0;
-}
- 
-body{
-    background-color: rgb(4, 14, 39);
-    font-family: 'Arimo', sans-serif;
-    color: rgb(255, 255, 255);
-}
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
+      body {
+        background-color: rgb(4, 14, 39);
+        font-family: "Arimo", sans-serif;
+        color: rgb(255, 255, 255);
+      }
 
-/*        Header   */
+      /*        Header   */
 
-nav{
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    background-color:rgb(22, 39, 87);
-    height: 80px;
-}
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(22, 39, 87);
+        height: 80px;
+      }
 
-/* nav div{
+      /* nav div{
     margin: 20px;
 } */
 
-nav ul{
-    display:flex;
-    justify-content: center;
-    
-    
-}
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
 
-nav ul li{
-    list-style: none;
-    margin: 0 15px;
-}
+      nav ul li {
+        list-style: none;
+        margin: 0 15px;
+      }
 
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
 
-nav ul li a:hover{
-    color: rgb(108, 61, 234);
-    font-size: 1.2rem;
-}
+      nav ul li a:hover {
+        color: rgb(108, 61, 234);
+        font-size: 1.2rem;
+      }
 
-.left{
-    font-size: 1.5rem;
-}
-/* Main */
+      .left {
+        font-size: 1.5rem;
+      }
+      /* Main */
 
-.firstsection{
-    display: flex;
-    justify-content: space-around;
-    margin:30px 0;
-    align-items: center;
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0;
+        align-items: center;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
 
-    
-}
-.firstsection > div{
-    width: 30%;
-}
+      .leftsection {
+        font-size: 3rem;
+      }
 
-.leftsection{
-    font-size: 3rem;
+      .rightsection {
+        margin: 40px;
+      }
+      .rightsection img {
+        height: 100%;
+        width: 80%;
+        border-radius: 100%;
+      }
+      .purple {
+        color: rgb(170, 0, 255);
+      }
 
-}
+      #element {
+        color: rgb(170, 0, 255);
+      }
 
-.rightsection{
-    
-    margin:40px;
-}
-.rightsection img{
-    height:100% ;
-    width:80%;
-    border-radius:100%;
-}
-.purple{
-    color: rgb(170, 0, 255);
-}
+      main hr {
+        border: 0;
+        background: #6c8cd3;
+        margin: 50px 80px;
+        height: 1.4px;
+      }
+      .secondsection {
+        max-width: 80vw;
+        height: 80vh;
+        margin: auto;
+      }
 
-#element{
-    color: rgb(170, 0, 255);
-}
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .secondsection .box {
+        height: 1px;
+        width: 80vw;
+        background: white;
+        margin: 100px 0;
+        display: flex;
+        justify-content: space-around;
+      }
 
-.secondsection{
-    max-width: 80vw;
-    margin: auto;
-}
+      .secondsection .vertical {
+        height: 91px;
+        width: 1px;
+        background: white;
+        /* margin: 0px; */
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="left">
-                Ayush's Portfolio
-            </div>
-            <div class="right">
-                <ul>
-                    <li><a href="./">Home</a></li>
-                    <li><a href="./">About</a></li>
-                    <li><a href="./">Service</a></li>
-                    <li><a href="./">Project</a></li>
-                    <li><a href="./">Contact Me</a></li>
-                </ul>
-            </div>
-           
-        </nav>
+      <nav>
+        <div class="left">Ayush's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./">About</a></li>
+            <li><a href="./">Service</a></li>
+            <li><a href="./">Project</a></li>
+            <li><a href="./">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="firstsection">
-            <div class="leftsection">
-               Hi, My name is <span class="purple">Ayush</span>
-               <div>
-                and I am passionate 
-                <!-- <div>Web Developer</div> -->
-                  <!-- Element to contain animated typing -->
-                    <span id="element"></span>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Ayush</span>
+          <div>
+            and I am passionate
+            <!-- <div>Web Developer</div> -->
+            <!-- Element to contain animated typing -->
+            <span id="element"></span>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="./biopic.jpg" alt="Ayush Dubey's Profile" />
+        </div>
+      </section>
 
-               </div>
+      <hr />
+
+      <section class="secondsection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">Class 10 <sup>th</sup>(2017-2018)</div>
+            <div class="verticle-desc">
+              I studied in Govt. Model Sr. Sec School, Faridabad, Haryana,
+              121003
             </div>
-            <div class="rightsection">
-                <img src="./biopic.jpg" alt="Ayush Dubey's Profile">
+          </div>
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">Super 100 (2018-2020)</div>
+            <div class="verticle-desc">
+              I was selected in Super 100 scheme which intruduced by Haryana
+              Govenment. This was the first time in Haryana in 2018. In this
+              scheme government choose only 100 student from Haryana state for
+              preparing JEE and NEET. It was for poor students who want to study
+              and see big dream but they can't pay big for competative exams.
+              And for those students who studied 10
+              <sup>th</sup> class in government school and their marks must be
+              more than 80% in class 10 <sup>th</sup>. I was preparing for JEE
+              exams.
             </div>
-        </section>
-<hr/>
-        <section class="secondsection">
-            <hi>Past Experience</hi>
-        </section>
+          </div>
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">B.Tech (2021-2025)</div>
+            <div class="verticle-desc">
+              I am a pre-final year student of IIIT Dharwad, Karnataka in ECE department.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">Class 10 <sup>th</sup>(2017-2018)</div>
+            <div class="verticle-desc">
+              I studied in Govt. Model Sr. Sec School, Faridabad, Haryana,
+              121003
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">Class 10 <sup>th</sup>(2017-2018)</div>
+            <div class="verticle-desc">
+              I studied in Govt. Model Sr. Sec School, Faridabad, Haryana,
+              121003
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-     <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer', 'Software Developer'],
-      typeSpeed: 50,
-    });
-  </script>
-</body>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Software Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
 </html>
