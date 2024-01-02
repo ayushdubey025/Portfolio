@@ -36,9 +36,6 @@
         height: 80px;
       }
 
-      /* nav div{
-    margin: 20px;
-} */
 
       nav ul {
         display: flex;
@@ -63,7 +60,8 @@
       .left {
         font-size: 1.5rem;
       }
-      /* Main */
+
+      /****************           Main   *******************************/
 
       .firstsection {
         display: flex;
@@ -78,6 +76,32 @@
       .leftsection {
         font-size: 3rem;
       }
+
+      .leftsection .buttons{
+        padding: 30px 0;
+      }
+
+      .leftsection .btn{
+        padding: 12px;
+        background-color: rgb(236, 22, 236);
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+      }
+
+      .leftsection button a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .leftsection button:hover{     
+        color: rgb(65, 19, 145);
+      }
+
+      .leftsection button a:hover{
+        color: rgb(65, 19, 145);
+      }
+
 
       .rightsection {
         margin: 40px;
@@ -95,12 +119,17 @@
         color: rgb(170, 0, 255);
       }
 
+
+
       main hr {
         border: 0;
         background: #6c8cd3;
         margin: 50px 80px;
         height: 1.4px;
       }
+
+      /***********                           Second Section Start         *******************/
+
       .secondsection {
         max-width: 80vw;
         height: 80vh;
@@ -112,18 +141,58 @@
       }
       .secondsection .box {
         height: 1px;
-        width: 80vw;
+        width: 70vw;
         background: white;
         margin: 100px 0;
         display: flex;
-        justify-content: space-around;
+      
       }
 
       .secondsection .vertical {
         height: 91px;
         width: 1px;
         background: white;
-        /* margin: 0px; */
+        margin: 0px 96px;
+      }
+
+      .verticle-title {
+        position: relative;
+        top: 75px;
+        width: 200px;
+      }
+
+      .verticle-desc {
+        font-size: 10px;
+        color: grey;
+        position: relative;
+        top: 86px;
+        width: 140px;
+      }
+
+      footer{
+        background-color: rgba(34, 40, 43, 0.949);
+        /* height: 30vh; */
+      }
+
+      .footer{
+        display: flex;
+        margin: 30px;
+        justify-content: space-evenly;
+        padding: 20px 10px;
+        /* align-items: center; */
+      }
+      
+      .footer > div{
+        width: 20px;
+      }
+      .footer ul{
+        list-style: none;
+      }
+
+      .footer-rights{
+        color: gray;
+        text-align: center;
+        padding: 12px 0;
       }
     </style>
   </head>
@@ -152,6 +221,10 @@
             <!-- <div>Web Developer</div> -->
             <!-- Element to contain animated typing -->
             <span id="element"></span>
+            <div class="buttons">
+              <button class="btn">Download Resume</button>
+              <button class="btn"><a href="https://github.com/dubey024">Visit Github</a></button>
+            </div>
           </div>
         </div>
         <div class="rightsection">
@@ -173,6 +246,7 @@
               121003
             </div>
           </div>
+
           <div class="vertical">
             <img src="" alt="" />
             <div class="verticle-title">Super 100 (2018-2020)</div>
@@ -188,32 +262,77 @@
               exams.
             </div>
           </div>
+
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">Class 11 <sup>th</sup>(2018-2019)</div>
+            <div class="verticle-desc">
+              I studied in Govt. Sr. Sec School, Saharanwas, Rewari, Haryana,
+              121003
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="" alt="" />
+            <div class="verticle-title">Class 12 <sup>th</sup>(2018-2019)</div>
+            <div class="verticle-desc">
+              I studied in Govt. Sr. Sec School, Saharanwas, Rewari, Haryana,
+              121003
+            </div>
+          </div>
+
           <div class="vertical">
             <img src="" alt="" />
             <div class="verticle-title">B.Tech (2021-2025)</div>
             <div class="verticle-desc">
-              I am a pre-final year student of IIIT Dharwad, Karnataka in ECE department.
+              I am a Pre-Final year student of IIIT Dharwad, Karnataka in ECE
+              department.
             </div>
           </div>
-          <div class="vertical">
-            <img src="" alt="" />
-            <div class="verticle-title">Class 10 <sup>th</sup>(2017-2018)</div>
-            <div class="verticle-desc">
-              I studied in Govt. Model Sr. Sec School, Faridabad, Haryana,
-              121003
-            </div>
-          </div>
-          <div class="vertical">
-            <img src="" alt="" />
-            <div class="verticle-title">Class 10 <sup>th</sup>(2017-2018)</div>
-            <div class="verticle-desc">
-              I studied in Govt. Model Sr. Sec School, Faridabad, Haryana,
-              121003
-            </div>
-          </div>
+
         </div>
       </section>
     </main>
+
+    <footer>
+
+      <div class="footer">
+      <div class="footer-one">
+        <h2>Ayush's Developer Portfolio</h2>
+      </div>
+      <div class="footer-two">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
+      </div>
+      <div class="footer-three">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
+      </div>
+      <div class="footer-four">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <div class="footer-rights">
+      Copyright &#169 www.ayushportfolio.com | All rights reserved
+    </div>
+
+    </footer>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
