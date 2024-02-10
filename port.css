@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 .leftsection .btn {
   padding: 12px;
-  background-color: rgb(236, 22, 236);
+  background-color:rgb(16 114 199);
   border-radius: 20px;
   color: white;
   cursor: pointer;
@@ -79,11 +79,11 @@ nav ul li a:hover {
 }
 
 .leftsection button:hover {
-  color: rgb(65, 19, 145);
+  color: rgb(61, 215, 226);
 }
 
 .leftsection button a:hover {
-  color: rgb(65, 19, 145);
+  color: rgb(61, 215, 226);
 }
 
 .rightsection {
@@ -152,9 +152,11 @@ main hr {
 /***********                           Third Section Start         *******************/
 .thirdsection {
   height: 50vh;
+  max-width: 80vw;
+  margin: auto;
 }
 
-.thirdsection h1{
+.thirdsection h1 {
   font-size: 1.9rem;
   margin: 50px 0;
 }
@@ -167,7 +169,7 @@ main hr {
   display: flex;
 }
 
-.thirdsection img{
+.thirdsection img {
   width: 30px;
   position: relative;
   top: -36px;
@@ -180,7 +182,7 @@ main hr {
   margin: 0 111px;
 }
 
-.thirdsection .skills{
+.thirdsection .skills {
   position: relative;
   top: 60px;
   right: 5px;
