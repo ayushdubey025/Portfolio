@@ -138,11 +138,17 @@ main hr {
 }
 
 .secondsection img {
-  width: 30px;
-  position: relative;
-  top: -36px;
-  right: 14px;
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: -42px;
+    right: 15px;
 }
+
+.secondsection img:hover{
+  width: 35px;
+}
+
 .secondsection .verticle {
   background-color: white;
   width: 1px;
