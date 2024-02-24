@@ -91,9 +91,14 @@ nav ul li a:hover {
 }
 .rightsection img {
   height: 100%;
-  width: 80%;
+  width: 60%;
   border-radius: 100%;
+  /* transition: width 2s height 2s; */
 }
+
+/* .rightsection img:hover{
+  width: 80%;
+} */
 .purple {
   color: rgb(170, 0, 255);
 }
@@ -213,6 +218,7 @@ main hr {
   top: 86px;
   width: 140px;
 }
+
 /***********                           Footer                        *******************/
 
 footer {
