@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to right, #f9fafb, #e0f7fa);
+  color: #212121;
+  line-height: 1.6;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(90deg, #283593, #3f51b5);
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* Profile Image */
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 5px #3f51b5;
+}
+
+/* Sections */
+section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-left: 6px solid #3f51b5;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+h3 {
+  color: #3f51b5;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+h3::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #ffd54f;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  border-radius: 2px;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+ul li::before {
+  content: "✓ ";
+  color: #43a047;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.8rem;
+  background: #ffd54f;
+  color: #212121;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-btn:hover {
+  background: #ffc107;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  color: #607d8b;
+  font-size: 0.95rem;
+  padding: 1rem 0;
+}
+
+/* Link Styling */
+a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
