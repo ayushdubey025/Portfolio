@@ -42,6 +42,7 @@ This portfolio will be hosted on **AWS** using:
 - **CloudFront** (CDN & HTTPS)
 - **ACM** (Free SSL)
 - *(Optional)* Route 53 for custom domain  
+- **IAM** to configure secure access permissions (no root credentials used)
 👉 [Hosted Repo Link](https://github.com/ayushdubey025/aws-static-portfolio)
 
 ---
