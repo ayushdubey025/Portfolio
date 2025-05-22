@@ -13,11 +13,11 @@ Welcome to my personal portfolio website showcasing my skills, projects, and con
 - AWS (S3 for static hosting, CloudFront for CDN)
 - Git and GitHub for version control
 
-## View Online
-[Live Portfolio Link](https://your-portfolio-link.com)
+<!-- ## View Online -->
+<!-- [Live Portfolio Link](https://your-portfolio-link.com) -->
 
 ## Screenshots
-![Homepage Screenshot](Portfolio/assets/homepage.png)
+![Homepage Screenshot](assets/homepage.png)
 
 ## Contact
 Email: ayushdubey0806@gmail.com  
