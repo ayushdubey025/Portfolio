@@ -39,9 +39,8 @@ This is my personal portfolio website that highlights my skills, projects, and c
 
 This portfolio will be hosted on **AWS** using:
 - Amazon **S3** (Static site hosting)
-- **CloudFront** (CDN & HTTPS)
-- **ACM** (Free SSL)
-- *(Optional)* Route 53 for custom domain  
+- **CloudFront SSL** (default HTTPS certificate)
+- *(Optional)* **Route 53 & ACM** (for custom domain - skipped)
 - **IAM** to configure secure access permissions (no root credentials used)
 👉 [Hosted Repo Link](https://github.com/ayushdubey025/aws-static-portfolio)
 
